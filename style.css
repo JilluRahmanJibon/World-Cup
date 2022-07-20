@@ -109,16 +109,16 @@
     text-decoration: none;
     display: inline-block;
     margin: 9px 0;
-    color: black;
     padding: 12px 0;
     width: 170px;
+    color: #000;
     border-radius: 5px;
 
 }
 
 .blog-active {
     background: #dd0000 !important;
-    color: white;
+    color: white !important;
 }
 
 
@@ -202,7 +202,9 @@
 
 /* transfer-area-style-ends */
 
-/* footer-start */
+/* ----------------
+footer-start
+----------- --------*/
 footer {
     background: black;
     padding: 80px 0;
