@@ -57,6 +57,7 @@
     padding: 10px 22px;
     display: inline-block;
     border-radius: 5px;
+    margin-top: 15px;
     transition: left 5s;
 }
 
@@ -164,7 +165,7 @@
 }
 
 .transfer-text span {
-    padding-right: 22px;
+    /* padding-right: 22px; */
     color: rgb(83, 78, 78);
 }
 
@@ -352,7 +353,18 @@ footer {
     }
 }
 
+.watch-btn {
+    background: white;
+    color: black;
+    border: 2px solid rgb(161, 161, 171);
+    transition: .3s;
+}
 
+.watch-btn:hover {
+    background: #dd0000;
+    border: 2px solid red;
+    color: #ffffff;
+}
 
 
 
