@@ -271,7 +271,8 @@ footer {
          meadia-query 
 -------------------------------- */
 
-@media screen and (min-width: 62.1em) and (max-width: 70em) {
+/* xl device */
+@media screen and (min-width: 62.1em) and (max-width: 80em) {
     .container {
         width: 95%;
     }
