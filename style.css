@@ -1,4 +1,6 @@
-/* google-fonts */
+/*-------------------------------------
+                 google-fonts
+----------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
 
 
@@ -79,6 +81,7 @@
 .banner-img img {
     width: 100%;
     padding-top: 50px;
+    margin-bottom: -6px;
 }
 
 /* banner-style-ends */
@@ -175,7 +178,28 @@
 }
 
 
+
+
+.flag-img-content {
+    height: 100%;
+    border: 2px solid rgb(179, 163, 163);
+    padding: 30px 0px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.flag-img {
+    display: flex;
+    justify-content: center;
+}
+
+.flag-img h1 {
+    font-size: 2.5rem;
+    padding-top: 10px;
+}
+
 /* transfer-area-style-ends */
+
 /* footer-start */
 footer {
     background: black;
@@ -239,7 +263,10 @@ footer {
 /* footer-ends */
 
 
-/* meadia-query  */
+/*---------------------------------
+         meadia-query 
+-------------------------------- */
+
 @media screen and (min-width: 62.1em) and (max-width: 70em) {
     .container {
         width: 95%;
@@ -252,7 +279,9 @@ footer {
 
 
 
-/* tablet-device */
+/* -----------------
+     tablet-device
+-------------------- */
 @media screen and (min-width: 48.1em) and (max-width: 62em) {
     .container {
         width: 90%;
@@ -287,7 +316,7 @@ footer {
         color: black;
     }
 
-    .blog-active {
+    .transfer-left .blog-active {
         color: #ffffff !important;
         border: 2px solid #dd0000 !important;
     }
